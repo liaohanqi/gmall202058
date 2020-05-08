@@ -8,3 +8,5 @@
 #master     是用来过渡的。dev需要提交时，maseter先从git那里pull下来，保证自己与git是同步最新的
 #           然后dev与maseter进行合并（merge）代码
 #           最后，由master进行代码的最终提交
+
+如果遇到代码不妥，则使用revert进行重置
